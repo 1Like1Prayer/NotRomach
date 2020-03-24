@@ -1,0 +1,10 @@
+<button class='ui primary button' (click)="openNotificationCenter()">test</button>
+<mat-sidenav-container>
+  <mat-sidenav mode='side' [(opened)]="notificationToggle">
+    <app-notification-center></app-notification-center>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <img class="ui small image"
+         src="https://www.zeraim.com/sites/g/files/zhg866/f/styles/syngenta_large/public/drupal_248x460_carpantia_2.jpg?itok=geIcxpy-">
+  </mat-sidenav-content>
+</mat-sidenav-container>
